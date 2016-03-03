@@ -1,0 +1,12 @@
+table, tr, td {
+    border:1px solid black;
+    margin: 0;
+    border-collapse:collapse;
+    padding: 1px;
+   
+};
+ 
+.strike {
+   text-decoration: line-through; 
+    display:inline-block;
+}
