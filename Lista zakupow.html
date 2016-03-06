@@ -9,26 +9,25 @@
 </head>  
     
     <body>
-        <p id="strike">Strike test</p>
     <div class="add">
         <label id="item">Przedmiot:</label>
-        <input type="text" class="product">
+        <input type="text" id="product">
         <label>Ilość:</label>
-        <input type="text" class="quantity">
+        <input type="text" id="quantity">
         <label>Cena:</label>
-        <input type="text" class="price">
+        <input type="text" id="price">
         </div>
-  <button class="btn">Dodaj przedmiot</button>
+  <button id="addBtn">Dodaj przedmiot</button>
         <table>
-          <tr class="strike">
+          <tr>
             <td></td> 
             <td>Przedmiot</td>
             <td>Ilość</td>  
             <td>Cena</td> 
             <td>Suma</td>  
           <tr>
-            <td class = "toPay" colspan="4">Łączna kwota</td>  
-            <td class="howMuch">ileś tam</td>  
+            <td colspan="4">Łączna kwota</td>  
+            <td id="howMuch">0</td>  
           </tr>
             
         </table>
